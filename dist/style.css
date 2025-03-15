@@ -1,0 +1,18 @@
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.crazy-text {
+  font-family: 'Comic Neue', cursive;
+  font-size: 30px;
+  color: red;
+  background: yellow;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  animation: wiggle 0.2s infinite;
+}
